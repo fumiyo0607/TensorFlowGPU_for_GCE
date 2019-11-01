@@ -1,5 +1,5 @@
 # TensorFlowGPU_for_GCE
-GCE(Google Compute Engine) 上での TensorFlowGPU 環境構築用プロジェクト
+GCE(Google Compute Engine) 上での TensorFlowGPU 環境構築用
 
 ## 環境設定
 * Ubuntu 16.04 LTS
@@ -72,8 +72,8 @@ $ sudo dpkg -i libcudnn7-dev_7.6.4.38-1+cuda9.0_amd64.deb
 $ sudo dpkg -i libcudnn7-doc_7.6.4.38-1+cuda9.0_amd64.deb
 ```
 ### 3. swap file の設定
-swap file がない場合，プログラム実行時にメモリリークする可能性がある．
-GCEでLinux仮想マシンを作成すると，UbuntuだろうがCentOSだろうが swap file がない状態で仮想マシンが作成される...
+swap file がない場合，プログラム実行時にメモリリークする可能性がある．<br>
+GCEでLinux仮想マシンを作成すると，UbuntuだろうがCentOSだろうが swap file がない状態で仮想マシンが作成される...(悲しい)
 <br><br>
 まずは，free commandでswapの有無を確認．
 ```
