@@ -74,8 +74,8 @@ $ sudo dpkg -i libcudnn7-doc_7.6.4.38-1+cuda9.0_amd64.deb
 ### 3. swap file の設定
 swap file がない場合，プログラム実行時にメモリリークする可能性がある．
 GCEでLinux仮想マシンを作成すると，UbuntuだろうがCentOSだろうが swap file がない状態で仮想マシンが作成される...
-<br>
-まずは，``free``commandでswapの有無を確認．
+<br><br>
+まずは，free commandでswapの有無を確認．
 ```
 $ free -m
 ```
