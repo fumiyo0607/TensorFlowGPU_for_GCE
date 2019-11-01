@@ -47,7 +47,7 @@ $ sudo nvidia-smi -pm 1
 ```
 
 ### 2. cuDNN7.0のインストール
-[ここ](https://developer.nvidia.com/developer-program)でdeveloperアカウントを作成し，cuDNNの以下の３つのファイル[ダウンロード](https://developer.nvidia.com/rdp/cudnn-download)する．
+[ここ](https://developer.nvidia.com/developer-program)でdeveloperアカウントを作成し，cuDNNの以下の３つのファイルを[ダウンロード](https://developer.nvidia.com/rdp/cudnn-download)する．
 
 #### version : ubuntu 16.04 cuda-9.0 version
  - libcudnn7_7.6.4.38-1+cuda9.0_amd64.deb
@@ -59,7 +59,7 @@ $ sudo nvidia-smi -pm 1
 
 アップロードが完了したら gsutil command でそのままインスタンスへの転送する．アップロードするディレクトリはお好みでどうぞ．
 ```
-$ cd {UD_LOAD_PATH}
+$ cd {U_LOAD_PATH}
 $ gsutil cp gs://cuda_09/libcudnn7_7.6.4.38-1+cuda9.0_amd64.deb .
 $ gsutil cp gs://cuda_09/libcudnn7-dev_7.6.4.38-1+cuda9.0_amd64.deb .
 $ gsutil cp gs://cuda_09/libcudnn7-doc_7.6.4.38-1+cuda9.0_amd64.deb .
@@ -193,5 +193,3 @@ $ conda install　numpy==1.15.4
 $ conda install　scipy==1.1.0 
 $ conda install　scikit-learn==0.20.0
 ```
-
-### 以上！お疲れ様でした〜〜！
