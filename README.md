@@ -187,7 +187,7 @@ physical_device_desc: "device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, com
 その他，必要なライブラリがあればinstallする．
  - KGAN
 ```
-$ conda install　numpy==1.15.4
-$ conda install　scipy==1.1.0 
-$ conda install　scikit-learn==0.20.0
+$ conda install numpy==1.15.4
+$ conda install scipy==1.1.0 
+$ conda install scikit-learn==0.20.0
 ```
