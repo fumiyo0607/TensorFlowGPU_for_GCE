@@ -67,9 +67,7 @@ $ gsutil cp gs://cuda_09/libcudnn7-doc_7.6.4.38-1+cuda9.0_amd64.deb .
 
 転送が完了したらファイルを展開してインストールする．
 ```
-$ sudo dpkg -i libcudnn7_7.6.4.38-1+cuda9.0_amd64.deb
-$ sudo dpkg -i libcudnn7-dev_7.6.4.38-1+cuda9.0_amd64.deb
-$ sudo dpkg -i libcudnn7-doc_7.6.4.38-1+cuda9.0_amd64.deb
+sudo dpkg -i *.deb
 ```
 ### 3. swap file の設定
 swap file がない場合，プログラム実行時にメモリリークする可能性がある．<br>
