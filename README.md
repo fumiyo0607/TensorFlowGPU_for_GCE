@@ -59,7 +59,7 @@ $ sudo nvidia-smi -pm 1
 
 アップロードが完了したら gsutil command でそのままインスタンスへの転送する．アップロードするディレクトリはお好みでどうぞ．
 ```
-$ cd {U_LOAD_PATH}
+$ cd {UP_LOAD_PATH}
 $ gsutil cp gs://cuda_09/libcudnn7_7.6.4.38-1+cuda9.0_amd64.deb .
 $ gsutil cp gs://cuda_09/libcudnn7-dev_7.6.4.38-1+cuda9.0_amd64.deb .
 $ gsutil cp gs://cuda_09/libcudnn7-doc_7.6.4.38-1+cuda9.0_amd64.deb .
