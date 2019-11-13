@@ -55,14 +55,14 @@ $ sudo nvidia-smi -pm 1
  - libcudnn7-doc_7.6.4.38-1+cuda9.0_amd64.deb
 <br>
 
-ダウンロードが完了したら，３つのファイルをStarageへアップロードする．この際，バケットnameは``cuda_09``とする．
+ダウンロードが完了したら，３つのファイルをStarageへアップロードする．この際，バケットnameは``cuda_9``とする．
 
 アップロードが完了したら gsutil command でそのままインスタンスへの転送する．アップロードするディレクトリはお好みでどうぞ．
 ```
 $ cd {UP_LOAD_PATH}
-$ gsutil cp gs://cuda_09/libcudnn7_7.6.4.38-1+cuda9.0_amd64.deb .
-$ gsutil cp gs://cuda_09/libcudnn7-dev_7.6.4.38-1+cuda9.0_amd64.deb .
-$ gsutil cp gs://cuda_09/libcudnn7-doc_7.6.4.38-1+cuda9.0_amd64.deb .
+$ gsutil cp gs://cuda_9/libcudnn7_7.6.4.38-1+cuda9.0_amd64.deb .
+$ gsutil cp gs://cuda_9/libcudnn7-dev_7.6.4.38-1+cuda9.0_amd64.deb .
+$ gsutil cp gs://cuda_9/libcudnn7-doc_7.6.4.38-1+cuda9.0_amd64.deb .
 ```
 
 転送が完了したらファイルを展開してインストールする．
